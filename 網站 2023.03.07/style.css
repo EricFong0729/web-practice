@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+}
+table{
+    width: 60%;
+    margin: auto;
+}
+td{
+    border-bottom: 1px solid blue;
+}
