@@ -6,7 +6,7 @@ $(function(){
     for (let i = 0; i < topicCount; i++){        
         if(i%2 == 1){
             $("#courseTable").append(
-                "<tr style='background-color: red'>"+
+                "<tr style='background-color: paleturquoise'>"+
                 `<td>${i + 1}</td>`+
                 `<td>${(new Date(startDate.getTime() + 7*i*millisecsPerDay)).toLocaleDateString()}</td>`+
                 `<td>${topic[i]}</td>`+
